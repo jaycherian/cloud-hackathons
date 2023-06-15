@@ -16,7 +16,9 @@ while :; do
     shift
 done
 
-
+HACK='interactive-video-services' 
+AUTHOR="jaycherian@google.com" 
+TITLE="Interactive Video Services on Google Cloud"
 
 if [[ ! "$HACK" =~ ^[a-z0-9\-]+$ ]]; then
     echo "Hack name '$HACK' should be all snake case, all lower case"
